@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<header>
+		
+		<h1>HEADER</h1>
+		<ul>
+			<a href="#segundo"><li>Inicio</li></a>
+			<a href="#tercero"><li>Contacto</li></a>
+			<a href="#footer"><li>Más información</li></a>
+		</ul>
+	</header>
+	<article id="primero">
+		
+		
+		 <img src="https://picsum.photos/200/300" id="imagen">
+		
+		
+	</article>
+	<article id="segundo">
+		<h1>SEGUNDO</h1>
+		<img class="marca" src="https://picsum.photos/200" width="200" height="200">
+		<img class="marca" src="https://picsum.photos/200"  width="200" height="200">
+		<img class="marca" src="https://picsum.photos/200"  width="200" height="200">
+	</article>
+	<article id="tercero">
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  		</p>
+	</article>
+	<footer id="footer">
+		<h1>FOOTER</h1>
+		<iframe src="https://www.google.com/maps/d/embed?mid=1uft5TJ_1S7XPHcPksx_VxrIkL9o&ehbc=2E312F" width="640" height="480"></iframe>
+	</footer>
+	
+	<style>
+
+		
+		#imagen{
+			width: 100%;
+			height: 100%;
+		}
+		ul{
+			font-size: 2.5em;
+			display: inline-block;
+			
+			
+		}
+		a{
+			text-decoration: none;
+		}
+		
+		li{
+			
+			margin: 25px;
+			list-style-type: none;
+			color:blue;
+		}
+		.marca{
+			margin: 90px;
+		}
+		.marca:hover{
+			border-radius: 50px;
+			background-color: orange;
+		}
+		body{
+			margin: 0;
+			
+		}
+		
+		header{
+			padding: 5px;
+			text-align: center;
+			background-color: #3a86ff;
+			color:white;
+			
+
+		}
+		h1{
+			font-size: 5em;
+			color:white;
+			text-align: center;
+		}
+		#primero{
+			
+			padding: 200px;
+			
+			
+		}
+		
+		#segundo{
+
+			padding: 200px;
+			text-align: center;
+			background-color: #219ebc;
+			color:red;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		#tercero{
+			
+			padding: 400px;
+			text-align: center;
+			background-color: #023047;
+			color:white;
+			
+		}
+		footer{
+			background-color: #ffb703;
+			padding: 400px;
+		}
+		
+		/* MEDIA QUERY */
+		@media (min-width: 900px){
+			body{
+				/*margin:0;*/
+
+			}
+			
+			
+
+			.marca{
+				font-size: 1em;
+				width: 50%;
+			}
+			
+			header{
+			
+			padding: 20px;
+			text-align: center;
+			background-color: #3a86ff;
+			color:white;
+			
+
+			}
+			#background-video{
+				width: 100%;
+				height: 100%;
+			}
+
+			footer{
+			background-color: #ffb703;
+			padding: 200px;
+			text-align: center;
+			
+			}
+			h1{
+				font-size: 3.5em;
+				color:white;
+				text-align: center;
+				
+			}
+			#primero{
+			
+			padding: 20px;
+			text-align: center;
+			color:white;
+			
+			}
+			#segundo{
+
+			padding: 20px;
+			text-align: center;
+			background-color: #219ebc;
+			color:red;
+			
+			}
+			#tercero{
+			
+			padding: 20px;
+			text-align: center;
+			background-color: #023047;
+			color:white;
+			
+			}
+		}
+	</style>
+</body>
+</html>
